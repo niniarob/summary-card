@@ -1,0 +1,37 @@
+@media screen and (min-width: 700px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 736px;
+        border-radius: 32px;
+    }
+    .blue-box{
+        height: 453px;
+        border-radius: 32px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .circle{
+        width: 150px;
+        height: 150px;
+    }
+    .blue-box 
+    h2{
+        margin-top: -33px;
+        font-size: 22px;
+    }
+    .paragraph{
+        width: 250px;
+    }
+    .great-box{
+        margin-bottom: -28px;
+    }
+    .button{
+        background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    }
+    body{
+        align-items:center;
+        height: 100vh;
+    }
+};
